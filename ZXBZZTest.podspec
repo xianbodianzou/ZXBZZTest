@@ -17,8 +17,6 @@ Pod::Spec.new do |s|
 
   s.source_files  =  "ZXBZZTest/**/*.{h,m}"
   
-  # s.exclude_files = "Classes/Exclude"
-
-  # s.public_header_files = "Classes/**/*.h"
+  s.resource  = "ZXBZZTest/**/*.{xib,bundle}"
 
 end
