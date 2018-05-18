@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
   s.author             = { "xianbodianzou" => "280646450@qq.com" }
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "git@github.com:xianbodianzou/ZXBZZTest.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/xianbodianzou/ZXBZZTest.git", :tag => "#{s.version}" }
 
-  s.source_files  =  "ZZTest/**/*.{h,m}"
+  s.source_files  =  "ZXBZZTest/**/*.{h,m}"
   
   # s.exclude_files = "Classes/Exclude"
 
